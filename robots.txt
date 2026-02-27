@@ -1,0 +1,8 @@
+# robots.txt for Jyotiksha Security Agency
+# https://jyotiksha-security.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jyotiksha-security.com/sitemap.xml
