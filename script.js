@@ -171,33 +171,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* -------------------------------------------------------
-     7. Contact Form Handling
+     7. Contact Form Handling (Now handled by Web3Forms via form action attribute)
      ------------------------------------------------------- */
-  const form = document.getElementById("contactForm");
-  if (form) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
 
-      const name = form.querySelector("#name").value.trim();
-      const phone = form.querySelector("#phone").value.trim();
-      const service = form.querySelector("#service").value;
-      const message = form.querySelector("#message").value.trim();
-
-      if (!name || !phone) {
-        alert("Please fill in your name and phone number.");
-        return;
-      }
-
-      // Build a WhatsApp message as a lightweight "backend"
-      const waText = encodeURIComponent(
-        `Hello, I would like to enquire about your security services.\n\nName: ${name}\nPhone: ${phone}\nService: ${service || "Not specified"}\nMessage: ${message || "N/A"}`
-      );
-      window.open(`https://wa.me/918917432820?text=${waText}`, "_blank");
-
-      form.reset();
-      alert("Thank you! Your enquiry has been sent via WhatsApp.");
-    });
-  }
 
   /* -------------------------------------------------------
      8. GSAP Scroll Animations

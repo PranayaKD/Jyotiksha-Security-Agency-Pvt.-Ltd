@@ -5,106 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Contact Jyotiksha Security Agency - Get in touch for security guard, gunman, bouncer, and bodyguard services in Odisha.">
+        content="Contact Jyotiksha Security Agency Pvt. Ltd. for professional security services in Bhadrak, Odisha. Call +91 8917432820 or visit our office.">
     <title>Contact Us | Jyotiksha Security Agency Pvt. Ltd.</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/additional.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- TOP UTILITY BAR -->
 
-    <!-- UNIFIED HEADER -->
-    <header class="site-header">
+    <!-- HEADER -->
+    <header class="header scrolled" id="header">
         <div class="container">
-            <div class="header-inner">
-                <!-- Left: Logo -->
-                <div class="header-logo">
-                    <a href="index.html">
-                        <i class="fas fa-shield-halved"></i>
-                        <div class="header-logo-text">
-                            <span class="brand-name">Jyotiksha</span>
-                            <span class="brand-tagline">Security Agency Pvt. Ltd.</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Right: Utility + Nav -->
-                <div class="header-right">
-                    <!-- Top Row: Utility & CTA -->
-                    <div class="header-top-bar">
-                        <a href="index.html#get-started" class="btn-top-quote">Request a Quote</a>
-                        <a href="https://wa.me/919876543210" target="_blank" class="btn-top-whatsapp">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+            <a href="index.html" class="logo" aria-label="Jyotiksha Security Agency Home">
+                <div class="logo-icon">JS</div>
+                <div class="logo-text">Jyotiksha Security<span>Agency Pvt. Ltd.</span></div>
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="security-services.html">Services</a></li>
+                    <li><a href="why-us.html">Why Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="tel:+918917432820" class="btn btn-primary">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.908.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            Call Now
                         </a>
-                        <a href="tel:+919876543210" class="click-to-call">
-                            <i class="fas fa-phone-volume"></i>
-                            <div>
-                                <small style="display:block; font-size: 0.7em; font-weight:normal; line-height:1;">CLICK
-                                    TO CALL</small>
-                                <span>+91 98765 43210</span>
-                            </div>
-                        </a>
-                        <a href="mailto:info@jyotiksha-security.com" class="utility-item">
-                            <i class="fas fa-envelope"></i> info@jyotiksha-security.com
-                        </a>
-                        <a href="index.html#get-started" class="btn-top-cta">Get Started Today</a>
-                    </div>
-
-                    <!-- Bottom Row: Navigation -->
-                    <div class="header-nav-bar">
-                        <ul class="nav-menu" id="navMenu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li class="has-dropdown">
-                                <a href="security-services.html">Security Services <i class="fas fa-caret-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="security-guard-services.html"><i class="fas fa-user-shield"></i>
-                                            Security Guard Services</a></li>
-                                    <li><a href="gunman-services.html"><i class="fas fa-crosshairs"></i> Gunman
-                                            Services</a></li>
-                                    <li><a href="bouncer-services.html"><i class="fas fa-fist-raised"></i> Bouncer
-                                            Services</a></li>
-                                    <li><a href="bodyguard-services.html"><i class="fas fa-user-secret"></i> Bodyguard
-                                            Services</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="why-us.html">Why Us</a></li>
-                            <li><a href="contact.html" class="active">Contact Us</a></li>
-                        </ul>
-                        <button class="nav-toggle" id="navToggle">
-                            <span></span><span></span><span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
+        <div class="nav-overlay" id="navOverlay"></div>
     </header>
 
-
-
-    <!-- PAGE HEADER -->
-    <section class="page-header">
-        <div class="page-header-bg"></div>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
         <div class="container">
-            <div class="page-header-content" data-aos="fade-up">
-                <span class="section-badge">Get In Touch</span>
-                <h1>Contact <span class="highlight">Us</span></h1>
-                <nav class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <i class="fas fa-chevron-right"></i>
-                    <span>Contact Us</span>
-                </nav>
-            </div>
+            <div class="page-hero-badge">Get In Touch</div>
+            <h1>Contact Us</h1>
+            <p>Have a security requirement? Reach out to us for a free consultation and customised quote.</p>
         </div>
     </section>
 
@@ -112,115 +64,93 @@
     <section class="contact-section">
         <div class="container">
             <div class="contact-grid">
-                <div class="contact-info" data-aos="fade-right">
-                    <span class="section-badge">Contact Info</span>
-                    <h2>Let's Start a <span class="highlight">Conversation</span></h2>
-                    <p>Have questions about our services? Need a customized security solution? We're here to help. Reach
-                        out to us through any of the following channels.</p>
+                <div class="contact-info">
+                    <span class="section-badge">Reach Us</span>
+                    <h2>Let's Discuss Your <span class="highlight">Security Needs</span></h2>
+                    <p>Whether you need security guards, armed protection, bouncers or personal bodyguards — we're here
+                        to help. Contact us through any of the following channels.</p>
 
                     <div class="contact-cards">
                         <div class="contact-card">
-                            <div class="contact-card-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
+                            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
                             <div class="contact-card-content">
-                                <h4>Phone</h4>
-                                <p>
-                                    <a href="tel:+919876543210">+91 98765 43210</a><br>
-                                    <a href="tel:+919876543211">+91 98765 43211</a>
-                                </p>
+                                <h4>Call Us</h4>
+                                <a href="tel:+918917432820">+91 8917432820</a><br>
+                                <a href="tel:+919778228600">+91 9778228600</a>
                             </div>
                         </div>
-
                         <div class="contact-card">
-                            <div class="contact-card-icon">
-                                <i class="fas fa-envelope"></i>
+                            <div class="contact-card-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="contact-card-content">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/918917432820" target="_blank">Chat on WhatsApp</a>
                             </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
                             <div class="contact-card-content">
                                 <h4>Email</h4>
-                                <p>
-                                    <a href="mailto:info@jyotiksha-security.com">info@jyotiksha-security.com</a><br>
-                                    <a href="mailto:support@jyotiksha-security.com">support@jyotiksha-security.com</a>
-                                </p>
+                                <a href="mailto:info@jyotiksha-security.com">info@jyotiksha-security.com</a>
                             </div>
                         </div>
-
                         <div class="contact-card">
-                            <div class="contact-card-icon">
-                                <i class="fas fa-location-dot"></i>
-                            </div>
+                            <div class="contact-card-icon"><i class="fas fa-location-dot"></i></div>
                             <div class="contact-card-content">
-                                <h4>Address</h4>
-                                <p>Plot No. 123, Industrial Area,<br>Bhubaneswar, Odisha - 751024</p>
-                            </div>
-                        </div>
-
-                        <div class="contact-card">
-                            <div class="contact-card-icon">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div class="contact-card-content">
-                                <h4>Working Hours</h4>
-                                <p>Monday - Saturday: 9:00 AM - 6:00 PM<br>24/7 Emergency Support Available</p>
+                                <h4>Office Address</h4>
+                                <p>Naripur, Astal,<br>Bhadrak, Odisha – 756100</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="contact-form-wrapper" data-aos="fade-left">
+                <div class="contact-form-wrapper">
                     <h3>Send Us a Message</h3>
-                    <form id="contactForm" class="lead-form">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="22365f99-8739-40b5-aa8c-cdc08f63e334">
+                        <input type="hidden" name="subject" value="New Service Enquiry from Contact Page">
+                        <input type="hidden" name="from_name" value="Jyotiksha Security Website">
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="contactName">Full Name *</label>
+                                <label for="fullName">Full Name *</label>
                                 <div class="input-wrapper">
                                     <i class="fas fa-user"></i>
-                                    <input type="text" id="contactName" name="fullName" placeholder="Your name"
-                                        required>
+                                    <input type="text" id="fullName" name="name" placeholder="Your full name" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="contactPhone">Phone Number *</label>
+                                <label for="phone">Phone Number *</label>
                                 <div class="input-wrapper">
                                     <i class="fas fa-phone"></i>
-                                    <input type="tel" id="contactPhone" name="phone" placeholder="Your phone" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="contactEmail">Email Address</label>
-                                <div class="input-wrapper">
-                                    <i class="fas fa-envelope"></i>
-                                    <input type="email" id="contactEmail" name="email" placeholder="Your email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="contactService">Service Required</label>
-                                <div class="input-wrapper">
-                                    <i class="fas fa-concierge-bell"></i>
-                                    <select id="contactService" name="service">
-                                        <option value="">Select a service</option>
-                                        <option value="security-guard">Security Guard Services</option>
-                                        <option value="gunman">Gunman Services</option>
-                                        <option value="bouncer">Bouncer Services</option>
-                                        <option value="bodyguard">Bodyguard Services</option>
-                                        <option value="other">Other</option>
-                                    </select>
+                                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="contactMessage">Your Message</label>
-                            <div class="input-wrapper textarea-wrapper">
-                                <i class="fas fa-comment"></i>
-                                <textarea id="contactMessage" name="message"
-                                    placeholder="Tell us about your requirements..." rows="5"></textarea>
+                            <label for="service">Service Required</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-shield-halved"></i>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="Security Guards">Security Guards</option>
+                                    <option value="Gunman Services">Gunman Services</option>
+                                    <option value="Bouncer Services">Bouncer Services</option>
+                                    <option value="Bodyguard Services">Bodyguard Services</option>
+                                    <option value="Other">Other</option>
+                                </select>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <div class="input-wrapper textarea-wrapper">
+                                <i class="fas fa-message"></i>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Describe your security requirements..."></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width:100%">
+                            <i class="fas fa-paper-plane"></i> Send Enquiry
                         </button>
                     </form>
                 </div>
@@ -232,148 +162,88 @@
     <section class="map-section">
         <div class="map-container">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119743.53499789284!2d85.7513562!3d20.2960587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59618.78702684!2d86.4659!3d21.0545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1c5cba00000001%3A0x7b0395c4e6f2d0a4!2sBhadrak%2C%20Odisha!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section class="cta-section">
-        <div class="cta-bg-pattern"></div>
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
         <div class="container">
-            <div class="cta-content" data-aos="fade-up">
-                <h2>Need Immediate Security Assistance?</h2>
-                <p>Our team is available 24/7 to address your security concerns. Call us now for immediate assistance or
-                    emergency security deployment.</p>
-                <div class="cta-features">
-                    <div class="cta-feature">
-                        <i class="fas fa-phone-volume"></i>
-                        <span>24/7 Helpline</span>
-                    </div>
-                    <div class="cta-feature">
-                        <i class="fas fa-bolt"></i>
-                        <span>Quick Response</span>
-                    </div>
-                    <div class="cta-feature">
-                        <i class="fas fa-headset"></i>
-                        <span>Expert Support</span>
-                    </div>
-                </div>
-                <a href="tel:+919876543210" class="btn btn-light btn-lg">
-                    <i class="fas fa-phone"></i>
-                    <span>Call Now: +91 98765 43210</span>
-                </a>
+            <h2>Need Immediate Security Assistance?</h2>
+            <p>Our team is available 24/7 to respond to your security requirements.</p>
+            <div class="hero-buttons">
+                <a href="tel:+918917432820" class="btn btn-primary">Call +91 8917432820</a>
+                <a href="https://wa.me/918917432820" class="btn btn-outline" target="_blank">WhatsApp Us</a>
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-col">
-                        <div class="footer-logo">
-                            <i class="fas fa-shield-halved"></i>
-                            <span>Jyotiksha Security</span>
-                        </div>
-                        <p>Jyotiksha Security Agency Pvt. Ltd. is a leading security service provider in Odisha,
-                            offering professional security guards, gunmen, bouncers, and bodyguard services.</p>
-                        <div class="footer-social">
-                            <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://wa.me/919876543210" class="social-link whatsapp"><i
-                                    class="fab fa-whatsapp"></i></a>
-                            <a href="mailto:info@jyotiksha-security.com" class="social-link email"><i
-                                    class="fas fa-envelope"></i></a>
-                        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <h4>Jyotiksha Security</h4>
+                    <p>M/S Jyotiksha Security Agency Pvt. Ltd. — a professional security services company dedicated to
+                        protection, discipline and trust.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="security-guard-services.html">Security Guards</a></li>
+                        <li><a href="gunman-services.html">Gunman Services</a></li>
+                        <li><a href="bouncer-services.html">Bouncer Services</a></li>
+                        <li><a href="bodyguard-services.html">Body Guard Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="why-us.html">Why Choose Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item">
+                        <span class="fc-icon"><i class="fas fa-phone-alt"></i></span>
+                        <span><a href="tel:+918917432820">+91 8917432820</a><br><a href="tel:+919778228600">+91
+                                9778228600</a></span>
                     </div>
-                    <div class="footer-col">
-                        <h4>Quick Links</h4>
-                        <ul class="footer-links">
-                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
-                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                            <li><a href="security-services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
-                            <li><a href="why-us.html"><i class="fas fa-chevron-right"></i> Why Us</a></li>
-                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Service Areas</h4>
-                        <ul class="footer-links">
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Bhubaneswar</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Cuttack</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Rourkela</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Sambalpur</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Puri</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Contact Us</h4>
-                        <ul class="footer-contact">
-                            <li>
-                                <i class="fas fa-phone"></i>
-                                <div>
-                                    <a href="tel:+919876543210">+91 98765 43210</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <div>
-                                    <a href="mailto:info@jyotiksha-security.com">info@jyotiksha-security.com</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-location-dot"></i>
-                                <div>
-                                    <span>Plot No. 123, Industrial Area,<br>Bhubaneswar, Odisha - 751024</span>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="footer-contact-item">
+                        <span class="fc-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <span>Naripur, Astal,<br>Bhadrak – 756100</span>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2024 Jyotiksha Security Agency Pvt. Ltd. All Rights Reserved.</p>
-                    <div class="footer-bottom-links">
-                        <a href="privacy-policy.html">Privacy Policy</a>
-                        <a href="terms.html">Terms of Service</a>
-                    </div>
-                </div>
-            </div>
+            <div class="footer-bar">&copy; <span id="footerYear"></span> M/S Jyotiksha Security Agency Pvt. Ltd. All
+                rights reserved.<span style="display:block; margin-top: 4px; font-size: 0.75rem; opacity: 0.5;">Designed
+                    &amp; Developed by <a href="https://pranayakd.in" target="_blank" rel="noopener"
+                        style="color: var(--clr-accent); opacity: 1;">Pranayakd.in</a></span></div>
         </div>
     </footer>
 
-    <button class="back-to-top" id="backToTop">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+    <!-- Floating Contact Button -->
+    <a href="https://wa.me/918917432820" class="floating-contact-btn" target="_blank" aria-label="WhatsApp Us">
+        <div class="fcb-icon">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" viewBox="0 0 24 24">
+                <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.908.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+        </div>
+        <span class="fcb-text">WhatsApp Us</span>
+    </a>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        // Contact form handling
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-            const formData = new FormData(this);
-            const data = {};
-            formData.forEach((value, key) => data[key] = value);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
 
-            // Store inquiry
-            let inquiries = JSON.parse(localStorage.getItem('inquiries') || '[]');
-            data.timestamp = new Date().toISOString();
-            data.id = Date.now();
-            data.source = 'contact-page';
-            inquiries.push(data);
-            localStorage.setItem('inquiries', JSON.stringify(inquiries));
-
-            alert('Thank you for your message! We will get back to you shortly.');
-            this.reset();
-        });
-    </script>
 </body>
 
 </html>
