@@ -3140,8 +3140,7 @@ select {
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   margin: 1.5rem 0;
-  object-fit: cover;
-  max-height: 400px;
+  display: block;
 }
 
 /* ============================================================
